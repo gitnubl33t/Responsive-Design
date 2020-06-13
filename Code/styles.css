@@ -141,6 +141,11 @@ html {
   max-width: 100%;
 }
 
+p,
+h3 {
+  font-family: "Merriweather", serif;
+}
+
 /* HEADER */
 
 h1 {
@@ -154,4 +159,15 @@ h1 {
 img {
   max-width: 100%;
   display: block;
+}
+
+nav.button {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* FOOTER */
+
+h3 {
+  color: white;
 }
