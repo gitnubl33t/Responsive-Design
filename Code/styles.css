@@ -159,6 +159,7 @@ h2 {
 h2 {
   font-size: 2rem;
   padding: 0.5rem;
+  text-align: left;
 }
 
 /* HEADER */
@@ -214,10 +215,19 @@ div.who {
   line-height: 1.5rem;
 }
 
-div.main-text p {
-  background-color: rgba(16, 41, 25, 0.6);
+.main-text {
+  background-color: rgba(16, 41, 25, 0.7);
+  padding: 1rem;
+  line-height: 1.4rem;
+  font-size: 0.9rem;
 }
 
+.main-text p {
+  width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* FOOTER */
 
 h3 {
