@@ -236,6 +236,10 @@ div.who {
   margin-right: auto;
 }
 
+.break {
+  margin: 1rem;
+}
+
 #projects {
   margin: 1rem auto;
 }
