@@ -139,7 +139,7 @@ font-family: 'Oswald', sans-serif; */
   margin-left: auto;
   /* max-width: 37.5rem; */
   min-width: 375px;
-  background-color: rgba(16, 41, 25, 0.4);
+  background-color: rgba(16, 41, 25, 0.15);
 }
 
 html {
@@ -175,6 +175,7 @@ h1 {
   max-width: 100%;
   padding-top: 1rem;
   color: rgba(16, 41, 25);
+  text-shadow: 3px 1px white;
 }
 
 /* BODY */
