@@ -137,7 +137,8 @@ font-family: 'Oswald', sans-serif; */
 .content {
   margin-right: auto;
   margin-left: auto;
-  max-width: 37.5rem;
+  /* max-width: 37.5rem; */
+  min-width: 375px;
 }
 
 html {
@@ -217,7 +218,7 @@ button {
 div.who {
   display: block;
   background-color: rgba(16, 41, 25, 0.7);
-  padding: 1rem;
+  /* padding: 1rem; */
   line-height: 1.5rem;
   min-width: 100%;
   margin-left: auto;
@@ -261,9 +262,6 @@ h3 {
   font-size: 1.1rem;
   text-align: center;
   background-color: rgba(16, 41, 25, 0.7);
-}
-
-footer {
 }
 
 footer button#contact-me {
