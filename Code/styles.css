@@ -220,6 +220,8 @@ div.who {
   padding: 1rem;
   line-height: 1.5rem;
   min-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .main-text {
