@@ -252,12 +252,29 @@ div.who {
   margin: auto;
 }
 
+/* 768px (ipad size) media query begins */
+
 @media (min-width: 768px) {
+  .content {
+    width: 80%;
+    align-items: center;
+  }
+
   div.nav-buttons {
     flex-direction: row;
     justify-content: space-evenly;
   }
+
+  #projects,
+  h2 {
+    display: none;
+  }
+
+  .who {
+    text-align: center;
+  }
 }
+/* 768px (ipad size) media query ends */
 
 /* FOOTER */
 
