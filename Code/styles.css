@@ -1,0 +1,345 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* CODE BEGINS, HERE */
+
+/* font-family: 'Merriweather', serif;
+font-family: 'Oswald', sans-serif; */
+
+/* Global code */
+
+* {
+  font-size: 62.5%;
+}
+
+.content {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+html {
+  background: url(img/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-width: 100%;
+}
+
+p,
+h3,
+h2 {
+  font-family: "Merriweather", serif;
+  color: #ffffff;
+}
+
+h2 {
+  font-size: 2rem;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+/* HEADER */
+
+h1 {
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  max-width: 100%;
+  padding-top: 1rem;
+  color: rgba(16, 41, 25);
+  text-shadow: 3px 1px white;
+}
+
+/* BODY */
+
+img {
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem 0;
+}
+
+img:hover {
+  opacity: 0.5;
+}
+
+.headshot-img {
+  border-radius: 50%;
+}
+
+div.nav-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  height: 2.8rem;
+  width: 5.5rem;
+  border-radius: 0.9rem;
+  background-color: rgba(16, 41, 25, 0.85);
+  font-family: "merriweather";
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.who {
+  display: block;
+  background-color: rgba(16, 41, 25, 0.7);
+  line-height: 1.5rem;
+  min-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-text {
+  background-color: rgba(16, 41, 25, 0.7);
+  line-height: 1.4rem;
+  font-size: 1rem;
+  min-width: 100%;
+}
+
+.main-text p {
+  width: 90%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.break {
+  margin: 1rem;
+}
+
+#projects {
+  margin: 1rem auto;
+}
+
+.project1,
+.project2 {
+  min-width: 90%;
+  margin: auto;
+}
+
+/* 768px (iPad size) media query begins */
+
+@media (min-width: 768px) {
+  .content {
+    width: 70%;
+    align-items: center;
+  }
+
+  div.nav-buttons {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  #projects,
+  h2 {
+    display: none;
+  }
+
+  .who {
+    text-align: center;
+  }
+
+  .divider {
+    padding: 1rem 0;
+  }
+
+  .project1,
+  .project2 {
+    height: 250px;
+    width: 400px;
+  }
+}
+
+/* 768px (iPad size) media query ends */
+
+/* 1050px media query begins */
+
+@media (min-width: 1051px) {
+  .content {
+    width: 45%;
+  }
+
+  .project1,
+  .project2 {
+    height: 250px;
+    width: 450px;
+  }
+}
+
+/* 1050px media query ends */
+
+/* 1450px media query begins */
+
+@media (min-width: 1450px) {
+  .content {
+    width: 45%;
+  }
+
+  .main-text,
+  .who {
+    width: 300px;
+  }
+}
+
+/* 1450px media query ends */
+
+/* 1650px media query begins */
+
+@media (min-width: 1650px) {
+  .content {
+    width: 45%;
+  }
+}
+
+/* 1650px media query ends */
+
+/* FOOTER */
+
+h3 {
+  color: white;
+  padding: 2rem;
+  font-size: 1.1rem;
+  text-align: center;
+  background-color: rgba(16, 41, 25, 0.7);
+}
+
+footer button#contact-me {
+  display: flex;
+  margin: 1rem auto;
+  /* margin-top: 1rem; */
+}
