@@ -277,6 +277,12 @@ div.who {
   .divider {
     padding: 1rem 0;
   }
+
+  .project1,
+  .project2 {
+    height: 250px;
+    width: 400px;
+  }
 }
 
 /* 768px (iPad size) media query ends */
@@ -287,6 +293,12 @@ div.who {
   .content {
     width: 50%;
   }
+
+  .project1,
+  .project2 {
+    height: 250px;
+    width: 450px;
+  }
 }
 
 /* 1050px media query ends */
@@ -295,7 +307,7 @@ div.who {
 
 @media (min-width: 1450px) {
   .content {
-    width: 35%;
+    width: 40%;
   }
 }
 
