@@ -252,11 +252,11 @@ div.who {
   margin: auto;
 }
 
-/* 768px (ipad size) media query begins */
+/* 768px (iPad size) media query begins */
 
 @media (min-width: 768px) {
   .content {
-    width: 80%;
+    width: 70%;
     align-items: center;
   }
 
@@ -273,8 +273,22 @@ div.who {
   .who {
     text-align: center;
   }
+
+  .divider {
+    padding: 1rem 0;
+  }
 }
-/* 768px (ipad size) media query ends */
+/* 768px (iPad size) media query ends */
+
+/* 1050px media query begins */
+
+@media (min-width: 1051px) {
+  .content {
+    width: 50%;
+  }
+}
+
+/* 1050px media query ends */
 
 /* FOOTER */
 
