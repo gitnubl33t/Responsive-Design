@@ -291,7 +291,7 @@ div.who {
 
 @media (min-width: 1051px) {
   .content {
-    width: 50%;
+    width: 45%;
   }
 
   .project1,
@@ -307,11 +307,26 @@ div.who {
 
 @media (min-width: 1450px) {
   .content {
-    width: 40%;
+    width: 45%;
+  }
+
+  .main-text,
+  .who {
+    width: 300px;
   }
 }
 
 /* 1450px media query ends */
+
+/* 1650px media query begins */
+
+@media (min-width: 1650px) {
+  .content {
+    width: 45%;
+  }
+}
+
+/* 1650px media query ends */
 
 /* FOOTER */
 
