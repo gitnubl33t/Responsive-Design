@@ -252,6 +252,13 @@ div.who {
   margin: auto;
 }
 
+@media (min-width: 768px) {
+  div.nav-buttons {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+
 /* FOOTER */
 
 h3 {
