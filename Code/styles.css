@@ -278,6 +278,7 @@ div.who {
     padding: 1rem 0;
   }
 }
+
 /* 768px (iPad size) media query ends */
 
 /* 1050px media query begins */
@@ -289,6 +290,16 @@ div.who {
 }
 
 /* 1050px media query ends */
+
+/* 1450px media query begins */
+
+@media (min-width: 1450px) {
+  .content {
+    width: 35%;
+  }
+}
+
+/* 1450px media query ends */
 
 /* FOOTER */
 
